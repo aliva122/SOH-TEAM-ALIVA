@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    position: relative;
+    background-color:rgb(213, 208, 208);
+    font-size: 30px;
+    padding: 30px;
+    top: 0px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height:832px;
+    background-color: skyblue;
+    z-index: -1;
+}
+.container .cards{
+    z-index: 0;
+    height:208px;
+    /* background-color: greenyellow; */
+}
+.container .cards .head{
+    font-size: 38px;
+    height:42px;
+    /* background-color: blue; */
+}
+.container .cards .content{
+    display: flex;
+    flex-direction: row;
+}
+.container .cards .content img{
+ width: 18%;
+ height: 166px;
+
+ /* background-color: blueviolet; */
+}
+.container .cards .content p{
+    /* background-color: green; */
+    font-size: 24px;
+    height: 166px;
+    width:82%
+}
+.color1{
+    background-color:whitesmoke;
+}
+.color2{
+    background-color: rgb(230, 224, 224);
+}
